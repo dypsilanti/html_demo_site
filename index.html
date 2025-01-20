@@ -17,10 +17,15 @@
     font-weight: 300;
     font-style: light;
   }
-  h1 {
+  h1, footer {
     font-family: "Neuton", serif;
     font-weight: 400;
     font-style: normal;
+  }
+  .bg-yellow { background-color: #F3DD98; }
+  .bg-blue   { background-color: #EEA369; }
+  a {
+    color: #e16765;
   }
 </style>
 </head>
@@ -51,10 +56,10 @@
     </div>
   </nav>
 
-  <header class="bg-primary text-white text-center py-5">
+  <header class="bg-yellow text-center py-5">
     <div class="container">
-      <h1>Welcome to Gainesville Picture Framers</h1>
-      <p class="lead">Your one-stop shop for all your picture framing needs</p>
+      <h1>Custom frame design and display solutions.</h1>
+      <p class="lead">Gainesville Picture Framers is your one-stop-shop for all your framing needs.</p>
     </div>
   </header>
 
@@ -64,7 +69,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="images/frame1.jpg" class="card-img-top" alt="Frame 1">
+            <img src="images/gpf-craig-gleason.jpg" class="card-img-top" alt="Frame 1">
             <div class="card-body">
               <h5 class="card-title">Custom Frames</h5>
               <p class="card-text">We offer a wide variety of custom frames to fit any picture or artwork.</p>
@@ -73,7 +78,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="images/frame2.jpg" class="card-img-top" alt="Frame 2">
+            <img src="images/gpf-final-fantasy.jpg" class="card-img-top" alt="Frame 2">
             <div class="card-body">
               <h5 class="card-title">Ready-Made Frames</h5>
               <p class="card-text">Choose from our selection of ready-made frames in various styles and sizes.</p>
@@ -82,7 +87,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="images/frame3.jpg" class="card-img-top" alt="Frame 3">
+            <img src="images/gpf-waylon-thornton.jpg" class="card-img-top" alt="Frame 3">
             <div class="card-body">
               <h5 class="card-title">Frame Restoration</h5>
               <p class="card-text">We provide professional frame restoration services to bring your old frames back to life.</p>
@@ -92,6 +97,14 @@
       </div>
     </div>
   </section>
+
+  <section>
+    <div class="container">
+      <hr>
+    </div>
+  </section>
+
+ 
 
   <section class="py-5" id="about">
     <div class="container">
@@ -128,27 +141,26 @@
     </div>
   </section>
 
-  <section class="py-5" id="contact">
+  <section class="py-5 bg-yellow" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6 order-2 order-md-1">
           <h2>Contact Us</h2>
-          <img src="/html_demo_site/images/gpf-brett-suzanne.jpg" class="w-100" alt="GPF Owners Brett & Suzanne">
-          <ul>
-            <li>Email:<a href="mailto:">gainesvillepictureframers@gmail.com</a></li>
-            <li>Phone: 555-555-5555</li>
-            <li>Address: 123 Main St, Gainesville, FL 32601</li>
-          </ul>
+          <img src="/html_demo_site/images/gpf-brett-suzanne.jpg" class="w-100 mb-4" alt="GPF Owners Brett & Suzanne">
+          <p><strong>Email</strong> - <a href="mailto:">gainesvillepictureframers@gmail.com</a><br>
+            <strong>Phone</strong> - 555-555-5555</p>
+          
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2">
           <h2>Directions</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.465932207433!2d-82.3223026246698!3d29.677268375110557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8a4148b910725%3A0x991843478458f118!2sN%20Main%20St%2C%20Gainesville%2C%20FL!5e0!3m2!1sen!2sus!4v1737398904962!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.465932207433!2d-82.3223026246698!3d29.677268375110557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8a4148b910725%3A0x991843478458f118!2sN%20Main%20St%2C%20Gainesville%2C%20FL!5e0!3m2!1sen!2sus!4v1737398904962!5m2!1sen!2sus" width="100%" height="450" class="mb-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><strong>Address</strong> - <a href="#">123 Main St, Gainesville, FL 32601</a></p>
         </div>
       </div>
     </div>
   </section>
 
-  <footer class="bg-light text-center py-4">
+  <footer class="text-center py-4">
     <div class="container">
       <p class="mb-0">© 2023 Gainesville Picture Framers. All rights reserved.</p>
     </div>
