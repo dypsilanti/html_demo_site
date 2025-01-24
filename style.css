@@ -1,5 +1,4 @@
-h2,
-.navbar-brand {
+h2{
   font-family: "Neuton", serif;
   font-weight: 300;
   font-style: light;
@@ -10,6 +9,22 @@ footer {
   font-weight: 400;
   font-style: normal;
 }
+.navbar {
+  font-family: "Parkinsans", serif;
+  font-optical-sizing: auto;
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+}
+.nav-link:hover{
+  color: #ff750b !important;
+}
+.neuton-regular-italic {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.33rem;
+}
 .bg-primary {
   background-color: #e19b53 !important;
 }
@@ -19,3 +34,40 @@ footer {
 .bg-light {
   background-color: #f3f3f3 !important;
 }
+
+/* .parkinsans-<uniquifier> {
+  font-family: "Parkinsans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+.neuton-extralight {
+  font-family: "Neuton", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.neuton-light {
+  font-family: "Neuton", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.neuton-bold {
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.neuton-extrabold {
+  font-family: "Neuton", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+ */
