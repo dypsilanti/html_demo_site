@@ -1,9 +1,9 @@
-h2{
+/* h2{
   font-family: "Neuton", serif;
   font-weight: 300;
   font-style: light;
-}
-h1,
+} */
+h1, h2, 
 footer {
   font-family: "Neuton", serif;
   font-weight: 400;
@@ -15,6 +15,11 @@ footer {
   font-size: 1.125rem;
   font-weight: 500;
   font-style: normal;
+}
+body {
+  font-family: "Parkinsans", serif;
+  font-weight: 300;
+  font-size: 1.125rem;
 }
 .nav-link:hover{
   color: #ff750b !important;
